@@ -32,10 +32,10 @@
 
 !! URxvt Appearance
 
-URxvt.font: xft:JetBrainsMonoNL Nerd Font:style=Regular 
-URxvt.boldFont: xft:JetBrainsMonoNL Nerd Font:style=SemiBold
-URxvt.italicFont: xft:JetBrainsMonoNL Nerd Font:style=Italic
-URxvt.boldItalicfont: xft:JetBrainsMonoNL Nerd Font:style=SemiBold Italic
+URxvt.font: xft:JetBrainsMono Nerd Font:style=Regular 
+URxvt.boldFont: xft:JetBrainsMono Nerd Font:style=Bold
+URxvt.italicFont: xft:JetBrainsMono Nerd Font:style=Italic
+!! URxvt.boldItalicfont: xft:JetBrainsMonoNL Nerd Font:style=SemiBold Italic
 URxvt.scrollBar: false
 URxvt.cursorBlink: true
 URxvt.iso14755: false
