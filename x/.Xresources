@@ -1,7 +1,8 @@
 !! Colorscheme
 
 ! hard contrast: *background: #1d2021
-*background: #282828
+! [90] -> opacity value (şeffaflık değeri))
+*background: [90]#282828
 ! soft contrast: *background: #32302f
 *foreground: #ebdbb2
 ! Black + DarkGrey
