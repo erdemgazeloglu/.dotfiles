@@ -39,3 +39,16 @@ URxvt.italicFont: xft:JetBrainsMono Nerd Font:style=Italic
 URxvt.scrollBar: false
 URxvt.cursorBlink: true
 URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+!! URxvt Extensions
+
+URxvt.perl-ext-common: keyboard-select,selection-to-clipboard
+
+!! Vim key bindings alt + esc
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+
+!! Clipboad extension
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
